@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sainath Rawale | Video Editor & Motion Graphics Artist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <h1>Sainath <span>Rawale</span></h1>
+    <h2>Video Editor | Motion Graphics Artist | Graphic Designer</h2>
+    <p>
+      Creative professional with 3+ years of experience producing high-quality
+      video content, motion graphics, and digital creatives for media,
+      education, and branding projects.
+    </p>
+    <a href="#work" class="btn">View My Work</a>
+  </header>
+
+  <!-- SHOWREEL -->
+  <section class="section">
+    <h2>Showreel</h2>
+    <p>A quick showcase of my video editing, motion graphics, and visual storytelling work.</p>
+    <video controls>
+      <source src="videos/showreel.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <h2>Selected Work</h2>
+
+    <div class="grid">
+      <div class="card">
+        <video controls>
+          <source src="videos/university-video.mp4" type="video/mp4">
+        </video>
+        <p>University Promotional & Interview Videos</p>
+      </div>
+
+      <div class="card">
+        <video controls>
+          <source src="videos/news-video.mp4" type="video/mp4">
+        </video>
+        <p>News & Political Content Editing</p>
+      </div>
+
+      <div class="card">
+        <video controls>
+          <source src="videos/social-media.mp4" type="video/mp4">
+        </video>
+        <p>Social Media Reels & Short Videos</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section dark">
+    <h2>About Me</h2>
+    <p>
+      I am a Video Editor, Motion Graphics Artist, and Graphic Designer with over
+      3 years of professional experience. I have worked with news media,
+      educational institutions, and branding teams to create engaging videos,
+      motion graphics, and social media creatives.
+    </p>
+    <p>
+      My focus is on clean edits, smooth pacing, consistent branding, and visuals
+      that communicate clearly and effectively.
+    </p>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section">
+    <h2>Professional Experience</h2>
+
+    <div class="experience">
+      <h3>D Y Patil University</h3>
+      <span>Video Editor & Graphic Designer | Jan 2024 – Present</span>
+      <p>
+        Edited university show-around videos, interviews, talk shows, and
+        promotional content. Designed graphic templates and YouTube thumbnails,
+        edited short social media videos, and assisted with camera handling and
+        on-site production.
+      </p>
+    </div>
+
+    <div class="experience">
+      <h3>Right News Online</h3>
+      <span>Video Editor & Graphic Designer | Feb 2022 – Dec 2023</span>
+      <p>
+        Created news-based social media creatives, political content, motion
+        graphics, and thumbnails. Worked on MMRC motion graphic projects in a
+        fast-paced, deadline-driven environment.
+      </p>
+    </div>
+
+    <div class="experience">
+      <h3>Karven Arts</h3>
+      <span>Graphic Designer | May 2021 – Jan 2022</span>
+      <p>
+        Designed MDF and acrylic-based products and developed branding assets
+        including logos and visual materials. Coordinated with production teams
+        to ensure design accuracy.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section dark">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Video Editing</li>
+      <li>Motion Graphics</li>
+      <li>Graphic Design</li>
+      <li>Social Media Creatives</li>
+      <li>Branding & Visual Identity</li>
+      <li>YouTube & Digital Media Content</li>
+      <li>Basic Cinematography</li>
+    </ul>
+  </section>
+
+  <!-- TOOLS -->
+  <section class="section">
+    <h2>Tools</h2>
+    <ul class="skills">
+      <li>Adobe Premiere Pro</li>
+      <li>Adobe After Effects</li>
+      <li>Adobe Photoshop</li>
+      <li>Adobe Illustrator</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <footer class="footer">
+    <h2>Contact</h2>
+    <p>📞 7030276072</p>
+    <p>📧 sainathrawale007@gmail.com</p>
+    <p>📍 Navi Mumbai, Maharashtra</p>
+    <p>Languages: Marathi | Hindi | English</p>
+    <p>© 2026 Sainath Rawale</p>
+  </footer>
+
+</body>
+</html>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.hero {
+  min-height: 100vh;
+  padding: 60px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero span {
+  color: #00ffd5;
+}
+
+.hero h2 {
+  margin: 10px 0;
+  font-weight: normal;
+  color: #cccccc;
+}
+
+.hero p {
+  max-width: 700px;
+}
+
+.btn {
+  margin-top: 25px;
+  width: fit-content;
+  padding: 12px 25px;
+  background: #00ffd5;
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 70px 10%;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.section video {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+.dark {
+  background: #1a1a1a;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills li {
+  background: #222;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.experience {
+  margin-bottom: 30px;
+}
+
+.experience span {
+  color: #bbbbbb;
+  font-size: 14px;
+}
+
+.footer {
+  background: #000;
+  text-align: center;
+  padding: 40px 20px;
+}
